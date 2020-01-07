@@ -1,8 +1,0 @@
-<map id="modeldata.get_primary_data" name="modeldata.get_primary_data">
-<area shape="rect" id="node2" href="$namespacecdf__scaldimer.html#a9fb8c275e56bc79bbcdc9eb42ea08803" title="cdf_scaldimer.main" alt="" coords="263,5,398,31"/>
-<area shape="rect" id="node3" href="$namespacemodeldata.html#a2c1b1f06f56693356b65075e6c7ba028" title="modeldata.get_scaling\l_dimensions" alt="" coords="253,55,408,93"/>
-<area shape="rect" id="node4" href="$namespacemodeldata.html#ab8edda6bc9b87b04d21ebdd97c889bba" title="modeldata.get_conformal\l_spins" alt="" coords="244,117,416,156"/>
-<area shape="rect" id="node5" href="$namespacescaldim__plot.html#aae7bddc7ca70207332855a62cd78651d" title="scaldim_plot.plot_and\l_print" alt="" coords="255,180,405,219"/>
-<area shape="rect" id="node6" href="$namespace_k_w__scaldims.html#a8865c12a5928ca043df41ce87605a9f4" title="KW_scaldims.main" alt="" coords="472,159,607,184"/>
-<area shape="rect" id="node7" href="$namespacescaldim__plot.html#a0179a23a8676d18e35644916d01f0002" title="scaldim_plot.plot_and\l_print_dict" alt="" coords="464,208,615,247"/>
-</map>

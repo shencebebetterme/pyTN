@@ -1,9 +1,0 @@
-<map id="modeldata.get_critical_beta" name="modeldata.get_critical_beta">
-<area shape="rect" id="node2" href="$namespacecdf__ed__scaldimer.html#a7f946c798dcf3a995fcecb6ace49ee3a" title="cdf_ed_scaldimer.parse" alt="" coords="244,5,406,31"/>
-<area shape="rect" id="node3" href="$namespacecdf__scaldimer.html#af2b5b4c9151f08852deaa663e07e5409" title="cdf_scaldimer.parse" alt="" coords="255,55,395,80"/>
-<area shape="rect" id="node5" href="$namespaceed__scaldimer.html#a5d892c978f24f203c7d295629601e75e" title="ed_scaldimer.parse" alt="" coords="256,104,393,129"/>
-<area shape="rect" id="node6" href="$namespacemodeldata.html#ac4405fc9e29b43113bb63e3fe7da7183" title="modeldata.potts3_exact_f" alt="" coords="238,153,412,179"/>
-<area shape="rect" id="node8" href="$namespacescaldimer.html#af17756040bc11a15af9cdf6dde306f8d" title="scaldimer.parse" alt="" coords="267,203,382,228"/>
-<area shape="rect" id="node4" href="$namespacecdf__scaldimer.html#a9fb8c275e56bc79bbcdc9eb42ea08803" title="cdf_scaldimer.main" alt="" coords="460,55,596,80"/>
-<area shape="rect" id="node7" href="$namespacemodeldata.html#a29655b8db116f3be2f319c406485635f" title="modeldata.get_free\l_energy" alt="" coords="460,147,596,185"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="tensor.Tensor.initialize_with" name="tensor.Tensor.initialize_with">
-<area shape="rect" id="node2" href="$classtensor_1_1_tensor.html#ad865f58c770353bc05e2064567288496" title="tensor.Tensor.__new__" alt="" coords="285,5,444,31"/>
-<area shape="rect" id="node3" href="$classtensorcommon_1_1_tensor_common.html#a1a47eb86974d40d50cafe6f71f60a2fe" title="tensorcommon.TensorCommon.empty" alt="" coords="241,55,488,80"/>
-<area shape="rect" id="node4" href="$classtensorcommon_1_1_tensor_common.html#ac29d6722ec9195dd349007b87b4833fe" title="tensorcommon.TensorCommon.zeros" alt="" coords="243,104,486,129"/>
-<area shape="rect" id="node5" href="$classtensorcommon_1_1_tensor_common.html#abaa89c9f315f91381d31004c566b2d74" title="tensorcommon.TensorCommon.ones" alt="" coords="244,153,484,179"/>
-<area shape="rect" id="node6" href="$classtensorcommon_1_1_tensor_common.html#a1fe2db87ab4ee30115cae3b9fc591967" title="tensorcommon.TensorCommon.random" alt="" coords="236,203,492,228"/>
-</map>

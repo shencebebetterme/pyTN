@@ -1,7 +1,0 @@
-<map id="tensor.Tensor.compatible_indices" name="tensor.Tensor.compatible_indices">
-<area shape="rect" id="node2" href="$classtensor_1_1_tensor.html#a5b3dbb475476a9ac36efc92c0034d174" title="tensor.Tensor.trace" alt="" coords="270,5,404,31"/>
-<area shape="rect" id="node3" href="$classtensorcommon_1_1_tensor_common.html#a0028e140ef2d29c40e296f1622fd97a9" title="tensorcommon.TensorCommon.dot" alt="" coords="222,55,452,80"/>
-<area shape="rect" id="node4" href="$classabeliantensor_1_1_abelian_tensor.html#aac909b74e8511bad61c305e333d26740" title="abeliantensor.AbelianTensor.multiply_diag" alt="" coords="500,29,769,55"/>
-<area shape="rect" id="node5" href="$classtensorcommon_1_1_tensor_common.html#a262a6e680cfbaacc45aab52c09f8f4c3" title="tensorcommon.TensorCommon.norm_sq" alt="" coords="503,79,766,104"/>
-<area shape="rect" id="node6" href="$classtensorcommon_1_1_tensor_common.html#a79bec5c87ab1946027fafa39349919cc" title="tensorcommon.TensorCommon.norm" alt="" coords="817,79,1059,104"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="abeliantensor.AbelianTensor.defer_unary_elementwise" name="abeliantensor.AbelianTensor.defer_unary_elementwise">
-<area shape="rect" id="node2" href="$classabeliantensor_1_1_abelian_tensor.html#ae72be4381bf435009c9a1ada65bf9980" title="abeliantensor.AbelianTensor.conj" alt="" coords="278,5,494,31"/>
-<area shape="rect" id="node5" href="$classabeliantensor_1_1_abelian_tensor.html#a1cf77bb004334e08877c22c90373b8dc" title="abeliantensor.AbelianTensor.real" alt="" coords="279,55,493,80"/>
-<area shape="rect" id="node6" href="$classabeliantensor_1_1_abelian_tensor.html#ad15a2cd21c995e5bd07cf23a5acdd3fa" title="abeliantensor.AbelianTensor.imag" alt="" coords="276,104,496,129"/>
-<area shape="rect" id="node3" href="$classtensorcommon_1_1_tensor_common.html#a262a6e680cfbaacc45aab52c09f8f4c3" title="tensorcommon.TensorCommon.norm_sq" alt="" coords="544,5,807,31"/>
-<area shape="rect" id="node4" href="$classtensorcommon_1_1_tensor_common.html#a79bec5c87ab1946027fafa39349919cc" title="tensorcommon.TensorCommon.norm" alt="" coords="855,5,1097,31"/>
-</map>

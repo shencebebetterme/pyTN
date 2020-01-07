@@ -1,8 +1,0 @@
-<map id="tensordispenser.generate_first_tensor" name="tensordispenser.generate_first_tensor">
-<area shape="rect" id="node2" href="$namespacesave2string.html#a623f7ef152062719ae0cc1e7c94ea1d1" title="save2string.begin_of" alt="" coords="410,5,554,31"/>
-<area shape="rect" id="node3" href="$namespaceinitialtensors.html#ade760b07f38ae026c48e62b2b3264d49" title="initialtensors.get\l_initial_tensor" alt="" coords="235,52,352,91"/>
-<area shape="rect" id="node4" href="$namespacesave2string.html#acea11a47ee9b34d8723a22612fe80ede" title="save2string.end_of" alt="" coords="415,72,549,97"/>
-<area shape="rect" id="node5" href="$namespacetoolbox.html#a17d9427a4fcc8571655ba92911fb9f47" title="toolbox.contract2x2" alt="" coords="225,167,362,192"/>
-<area shape="rect" id="node6" href="$namespacetoolbox.html#ac1429deb120f5106dcbc38f03d8f98eb" title="toolbox.contract2x2\l_ndarray" alt="" coords="414,147,551,185"/>
-<area shape="rect" id="node7" href="$namespacetoolbox.html#ac2f0e52967998b53722416c80f70f698" title="toolbox.contract2x2\l_Tensor" alt="" coords="414,209,551,248"/>
-</map>

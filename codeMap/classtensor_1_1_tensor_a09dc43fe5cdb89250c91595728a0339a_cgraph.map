@@ -1,7 +1,0 @@
-<map id="tensor.Tensor.value" name="tensor.Tensor.value">
-<area shape="rect" id="node2" href="$classtensor_1_1_tensor.html#a924ede0ed9e2c28c96112c902ee2c3af" title="tensor.Tensor.check\l_form_match" alt="" coords="190,5,329,44"/>
-<area shape="rect" id="node3" href="$classtensor_1_1_tensor.html#ae9f02dbfd89f444f1e56659e3f65e1fe" title="tensor.Tensor.find\l_trunc_dim" alt="" coords="377,5,503,44"/>
-<area shape="rect" id="node4" href="$classtensor_1_1_tensor.html#a05e26a12950317454800d98ed384e2bc" title="tensor.Tensor.join\l_indices" alt="" coords="551,5,676,44"/>
-<area shape="rect" id="node5" href="$classabeliantensor_1_1_abelian_tensor.html#aaf07f61339ab55a47935a8252142d4b2" title="abeliantensor.AbelianTensor.transpose" alt="" coords="724,12,974,37"/>
-<area shape="rect" id="node6" href="$classabeliantensor_1_1_abelian_tensor.html#a2a9ddddb3af3e22bbf47dfce6e9150d8" title="abeliantensor.AbelianTensor.empty_like" alt="" coords="1022,12,1278,37"/>
-</map>

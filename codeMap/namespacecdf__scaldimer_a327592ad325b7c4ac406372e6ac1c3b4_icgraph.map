@@ -1,8 +1,0 @@
-<map id="cdf_scaldimer.get_tensor_id_pars" name="cdf_scaldimer.get_tensor_id_pars">
-<area shape="rect" id="node2" href="$namespacecdf__scaldimer.html#a6ce4cc789b580d4bc552fc3bda6bdf48" title="cdf_scaldimer.get_tensors" alt="" coords="223,32,399,57"/>
-<area shape="rect" id="node3" href="$namespacecdf__scaldimer.html#abed4cb95068f5bbd96230d12f2e7d535" title="cdf_scaldimer.generate\l_tensors" alt="" coords="447,7,606,45"/>
-<area shape="rect" id="node4" href="$namespacecdf__scaldimer.html#af4ba8dbee3e9858f5ce217bb6a773875" title="cdf_scaldimer.generate\l_normalized_tensors" alt="" coords="447,69,606,108"/>
-<area shape="rect" id="node5" href="$namespacecdf__scaldimer.html#a93715d9563e93edda4f132a454b478d9" title="cdf_scaldimer.get_normalized\l_tensors" alt="" coords="654,120,852,159"/>
-<area shape="rect" id="node7" href="$namespacecdf__scaldimer.html#a9fb8c275e56bc79bbcdc9eb42ea08803" title="cdf_scaldimer.main" alt="" coords="1105,159,1240,184"/>
-<area shape="rect" id="node6" href="$namespacecdf__scaldimer.html#adc6cace1f673b54fa5d18071c495ea94" title="cdf_scaldimer.get_eigs" alt="" coords="900,131,1057,156"/>
-</map>

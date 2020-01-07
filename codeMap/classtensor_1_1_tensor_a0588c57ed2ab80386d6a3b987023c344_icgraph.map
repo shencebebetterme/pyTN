@@ -1,8 +1,0 @@
-<map id="tensor.Tensor.matrix_eig" name="tensor.Tensor.matrix_eig">
-<area shape="rect" id="node2" href="$classtensor_1_1_tensor.html#a433ac33c4c10aab7596cc9b4f653d1b3" title="tensor.Tensor.matrix_dot" alt="" coords="250,5,417,31"/>
-<area shape="rect" id="node7" href="$classtensorcommon_1_1_tensor_common.html#a6037f0826b8144c5b4b3250ca6553623" title="tensorcommon.TensorCommon.eig" alt="" coords="219,55,448,80"/>
-<area shape="rect" id="node3" href="$classtensorcommon_1_1_tensor_common.html#a0028e140ef2d29c40e296f1622fd97a9" title="tensorcommon.TensorCommon.dot" alt="" coords="496,31,726,56"/>
-<area shape="rect" id="node4" href="$classabeliantensor_1_1_abelian_tensor.html#aac909b74e8511bad61c305e333d26740" title="abeliantensor.AbelianTensor.multiply_diag" alt="" coords="774,5,1043,31"/>
-<area shape="rect" id="node5" href="$classtensorcommon_1_1_tensor_common.html#a262a6e680cfbaacc45aab52c09f8f4c3" title="tensorcommon.TensorCommon.norm_sq" alt="" coords="777,55,1040,80"/>
-<area shape="rect" id="node6" href="$classtensorcommon_1_1_tensor_common.html#a79bec5c87ab1946027fafa39349919cc" title="tensorcommon.TensorCommon.norm" alt="" coords="1091,55,1333,80"/>
-</map>

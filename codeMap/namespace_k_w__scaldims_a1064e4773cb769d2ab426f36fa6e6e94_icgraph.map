@@ -1,7 +1,0 @@
-<map id="KW_scaldims.generate_tensors" name="KW_scaldims.generate_tensors">
-<area shape="rect" id="node2" href="$namespace_k_w__scaldims.html#abeeaa0ce426d9df36121e2323a31d66f" title="KW_scaldims.get_tensors" alt="" coords="212,12,387,37"/>
-<area shape="rect" id="node3" href="$namespace_k_w__scaldims.html#ab36193c6b394370fd0804c75eabaaa19" title="KW_scaldims.generate\l_normalized_tensors" alt="" coords="435,5,594,44"/>
-<area shape="rect" id="node4" href="$namespace_k_w__scaldims.html#a9a6002c6efd62e85f13c45e913e32e51" title="KW_scaldims.get_normalized\l_tensors" alt="" coords="642,5,839,44"/>
-<area shape="rect" id="node5" href="$namespace_k_w__scaldims.html#afabc323b07398e9eebfb289dc59f8bbf" title="KW_scaldims.get_scaldims" alt="" coords="887,12,1070,37"/>
-<area shape="rect" id="node6" href="$namespace_k_w__scaldims.html#a8865c12a5928ca043df41ce87605a9f4" title="KW_scaldims.main" alt="" coords="1118,12,1253,37"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="modeldata.build_primas" name="modeldata.build_primas">
-<area shape="rect" id="node2" href="$namespacemodeldata.html#a51bd887a5bfbec85ed72ae8cd7c51aa6" title="modeldata.get_primary_data" alt="" coords="216,93,407,119"/>
-<area shape="rect" id="node3" href="$namespacecdf__scaldimer.html#a9fb8c275e56bc79bbcdc9eb42ea08803" title="cdf_scaldimer.main" alt="" coords="473,5,609,31"/>
-<area shape="rect" id="node4" href="$namespacemodeldata.html#a2c1b1f06f56693356b65075e6c7ba028" title="modeldata.get_scaling\l_dimensions" alt="" coords="464,55,619,93"/>
-<area shape="rect" id="node5" href="$namespacemodeldata.html#ab8edda6bc9b87b04d21ebdd97c889bba" title="modeldata.get_conformal\l_spins" alt="" coords="455,117,627,156"/>
-<area shape="rect" id="node6" href="$namespacescaldim__plot.html#aae7bddc7ca70207332855a62cd78651d" title="scaldim_plot.plot_and\l_print" alt="" coords="466,180,616,219"/>
-<area shape="rect" id="node7" href="$namespace_k_w__scaldims.html#a8865c12a5928ca043df41ce87605a9f4" title="KW_scaldims.main" alt="" coords="683,159,818,184"/>
-<area shape="rect" id="node8" href="$namespacescaldim__plot.html#a0179a23a8676d18e35644916d01f0002" title="scaldim_plot.plot_and\l_print_dict" alt="" coords="675,208,825,247"/>
-</map>
