@@ -1,0 +1,5 @@
+<map id="tensor.Tensor.trace" name="tensor.Tensor.trace">
+<area shape="rect" id="node2" href="$classabeliantensor_1_1_abelian_tensor.html#a68710d42f43c9ef69785c92c59f8ac14" title="abeliantensor.AbelianTensor.compatible\l_indices" alt="" coords="187,5,444,44"/>
+<area shape="rect" id="node3" href="$classtensor_1_1_tensor.html#abfba632f45c6add0784a380d593a31cf" title="tensor.Tensor.compatible\l_indices" alt="" coords="231,68,400,107"/>
+<area shape="rect" id="node4" href="$classtensor_1_1_tensor.html#ad90f00a41ea29d51bf83c01f4b94da2a" title="tensor.Tensor.from\l_ndarray" alt="" coords="250,131,381,169"/>
+</map>

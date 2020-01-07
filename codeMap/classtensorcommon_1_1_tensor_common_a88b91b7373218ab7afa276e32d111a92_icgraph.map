@@ -1,0 +1,9 @@
+<map id="tensorcommon.TensorCommon.flatten_shape" name="tensorcommon.TensorCommon.flatten_shape">
+<area shape="rect" id="node2" href="$classabeliantensor_1_1_abelian_tensor.html#aabd17cd8ba4ed72ccd19f5e86d481735" title="abeliantensor.AbelianTensor.average" alt="" coords="301,5,541,31"/>
+<area shape="rect" id="node3" href="$classtensor_1_1_tensor.html#ad865f58c770353bc05e2064567288496" title="tensor.Tensor.__new__" alt="" coords="638,44,796,69"/>
+<area shape="rect" id="node4" href="$classtensor_1_1_tensor.html#abf05bdf52e103190448d934c04176358" title="tensor.Tensor.initialize_with" alt="" coords="329,119,512,144"/>
+<area shape="rect" id="node5" href="$classtensorcommon_1_1_tensor_common.html#a1a47eb86974d40d50cafe6f71f60a2fe" title="tensorcommon.TensorCommon.empty" alt="" coords="593,93,841,119"/>
+<area shape="rect" id="node6" href="$classtensorcommon_1_1_tensor_common.html#ac29d6722ec9195dd349007b87b4833fe" title="tensorcommon.TensorCommon.zeros" alt="" coords="595,143,839,168"/>
+<area shape="rect" id="node7" href="$classtensorcommon_1_1_tensor_common.html#abaa89c9f315f91381d31004c566b2d74" title="tensorcommon.TensorCommon.ones" alt="" coords="597,192,837,217"/>
+<area shape="rect" id="node8" href="$classtensorcommon_1_1_tensor_common.html#a1fe2db87ab4ee30115cae3b9fc591967" title="tensorcommon.TensorCommon.random" alt="" coords="589,241,845,267"/>
+</map>

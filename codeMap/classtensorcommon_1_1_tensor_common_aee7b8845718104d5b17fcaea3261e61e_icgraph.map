@@ -1,0 +1,12 @@
+<map id="tensorcommon.TensorCommon.matrix_decomp_format_chis" name="tensorcommon.TensorCommon.matrix_decomp_format_chis">
+<area shape="rect" id="node2" href="$classtensor_1_1_tensor.html#a0588c57ed2ab80386d6a3b987023c344" title="tensor.Tensor.matrix_eig" alt="" coords="550,5,716,31"/>
+<area shape="rect" id="node9" href="$classtensor_1_1_tensor.html#af8b0b1715f8ae747eb740d917e9fffd6" title="tensor.Tensor.matrix_svd" alt="" coords="301,55,469,80"/>
+<area shape="rect" id="node3" href="$classtensor_1_1_tensor.html#a433ac33c4c10aab7596cc9b4f653d1b3" title="tensor.Tensor.matrix_dot" alt="" coords="831,5,998,31"/>
+<area shape="rect" id="node8" href="$classtensorcommon_1_1_tensor_common.html#a6037f0826b8144c5b4b3250ca6553623" title="tensorcommon.TensorCommon.eig" alt="" coords="800,55,1029,80"/>
+<area shape="rect" id="node4" href="$classtensorcommon_1_1_tensor_common.html#a0028e140ef2d29c40e296f1622fd97a9" title="tensorcommon.TensorCommon.dot" alt="" coords="1080,31,1310,56"/>
+<area shape="rect" id="node5" href="$classabeliantensor_1_1_abelian_tensor.html#aac909b74e8511bad61c305e333d26740" title="abeliantensor.AbelianTensor.multiply_diag" alt="" coords="1358,5,1627,31"/>
+<area shape="rect" id="node6" href="$classtensorcommon_1_1_tensor_common.html#a262a6e680cfbaacc45aab52c09f8f4c3" title="tensorcommon.TensorCommon.norm_sq" alt="" coords="1361,55,1624,80"/>
+<area shape="rect" id="node7" href="$classtensorcommon_1_1_tensor_common.html#a79bec5c87ab1946027fafa39349919cc" title="tensorcommon.TensorCommon.norm" alt="" coords="1675,55,1917,80"/>
+<area shape="rect" id="node10" href="$classtensorcommon_1_1_tensor_common.html#a71bbbae378459ac8c9b6e2c9de95379d" title="tensorcommon.TensorCommon.svd" alt="" coords="517,55,749,80"/>
+<area shape="rect" id="node11" href="$classtensorcommon_1_1_tensor_common.html#a58877ed968100895e33318710b9c429d" title="tensorcommon.TensorCommon.split" alt="" coords="797,104,1032,129"/>
+</map>

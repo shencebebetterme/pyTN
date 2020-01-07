@@ -1,0 +1,14 @@
+<map id="tensorcommon.TensorCommon.to_matrix" name="tensorcommon.TensorCommon.to_matrix">
+<area shape="rect" id="node2" href="$classabeliantensor_1_1_abelian_tensor.html#a63758f25764fe1b16779c1c209d041f3" title="abeliantensor.AbelianTensor.join\l_indices" alt="" coords="563,193,775,232"/>
+<area shape="rect" id="node7" href="$classtensor_1_1_tensor.html#a05e26a12950317454800d98ed384e2bc" title="tensor.Tensor.join\l_indices" alt="" coords="332,251,457,289"/>
+<area shape="rect" id="node8" href="$classtensorcommon_1_1_tensor_common.html#a5743574f891664017aa2493fc94d81af" title="tensorcommon.TensorCommon.from\l_matrix" alt="" coords="275,100,513,139"/>
+<area shape="rect" id="node3" href="$classabeliantensor_1_1_abelian_tensor.html#a4c7f68ae796d686d6a28e3cc404fbca7" title="abeliantensor.AbelianTensor.view" alt="" coords="841,93,1059,119"/>
+<area shape="rect" id="node5" href="$classabeliantensor_1_1_abelian_tensor.html#aeb3c7d9d16662361b40ced5bf7ffd148" title="abeliantensor.AbelianTensor.sum" alt="" coords="841,195,1058,220"/>
+<area shape="rect" id="node6" href="$classabeliantensor_1_1_abelian_tensor.html#aaf07f61339ab55a47935a8252142d4b2" title="abeliantensor.AbelianTensor.transpose" alt="" coords="825,244,1075,269"/>
+<area shape="rect" id="node4" href="$classabeliantensor_1_1_abelian_tensor.html#a2a9ddddb3af3e22bbf47dfce6e9150d8" title="abeliantensor.AbelianTensor.empty_like" alt="" coords="1123,144,1379,169"/>
+<area shape="rect" id="node9" href="$classabeliantensor_1_1_abelian_tensor.html#a408462b6f36c5d53803c3d26de2cdf61" title="abeliantensor.AbelianTensor.split\l_indices" alt="" coords="561,131,777,169"/>
+<area shape="rect" id="node10" href="$classsymmetrytensors_1_1_tensor_z_q.html#a66f9ff5c9340f61a7e647192f5630ce2" title="symmetrytensors.TensorZQ.split\l_indices" alt="" coords="563,5,775,44"/>
+<area shape="rect" id="node13" href="$classtensor_1_1_tensor.html#af1c875af852a8534756a6f4aa29edb88" title="tensor.Tensor.split\l_indices" alt="" coords="605,68,733,107"/>
+<area shape="rect" id="node11" href="$classsymmetrytensors_1_1_tensor_z_q.html#a92e34c2b1c33548910629aae96631f9a" title="symmetrytensors.TensorZQ.shape\l_to_qhape" alt="" coords="837,5,1062,44"/>
+<area shape="rect" id="node12" href="$classsymmetrytensors_1_1_tensor_z_q.html#a64cf50dc7d7a3acea68fb53d6e226351" title="symmetrytensors.TensorZQ.dim\l_to_qim" alt="" coords="1146,5,1356,44"/>
+</map>

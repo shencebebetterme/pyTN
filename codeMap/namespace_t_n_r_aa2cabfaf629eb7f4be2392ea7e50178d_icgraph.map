@@ -1,0 +1,35 @@
+<map id="TNR.build_B" name="TNR.build_B">
+<area shape="rect" id="node2" href="$namespace_t_n_r.html#aaf1957ffc5b85ad27df5d3557b6f82dd" title="TNR.tnr_step" alt="" coords="1129,124,1230,149"/>
+<area shape="rect" id="node29" href="$namespace_t_n_r.html#a8cd3f8322b992919333d3218d5fb7148" title="TNR.build_uvw" alt="" coords="599,73,710,98"/>
+<area shape="rect" id="node30" href="$namespace_t_n_r.html#a3bd5fa61e55d03a0c438c030f5824679" title="TNR.tnr_step_vertstr" alt="" coords="758,48,903,73"/>
+<area shape="rect" id="node32" href="$namespace_t_n_r.html#a4845ba221623ee04f8d53d9cf9afc377" title="TNR.cost_function" alt="" coords="176,225,307,250"/>
+<area shape="rect" id="node33" href="$namespace_t_n_r.html#a11880943754ca5fc30aa83587549fc55" title="TNR.optimize_disentangler" alt="" coords="150,73,332,98"/>
+<area shape="rect" id="node3" href="$namespacetensordispenser.html#a279c098fc8f1c4480f5439697419cf7a" title="tensordispenser.generate\l_next_tensor" alt="" coords="1278,117,1449,156"/>
+<area shape="rect" id="node4" href="$namespacetensordispenser.html#a85c8ef61247a9e65483a8333401353de" title="tensordispenser.generate\l_tensor" alt="" coords="1497,96,1669,134"/>
+<area shape="rect" id="node5" href="$namespacetensordispenser.html#a67e19f842fcaec7d7d8d2dd07cc8aa85" title="tensordispenser.get\l_tensor" alt="" coords="1717,168,1855,206"/>
+<area shape="rect" id="node27" href="$namespacetensordispenser.html#aabaf8b345f2480a0a57bbb17768dca7f" title="tensordispenser.get\l_gauges" alt="" coords="1717,105,1855,144"/>
+<area shape="rect" id="node28" href="$namespacetensordispenser.html#a54de0499a21420a18e4573b9b2b01fd0" title="tensordispenser.get\l_pieces" alt="" coords="1717,42,1855,81"/>
+<area shape="rect" id="node6" href="$namespacecdf__ed__scaldimer.html#a7b06cbda323a8efd232f54f425ddaed8" title="cdf_ed_scaldimer.get_T" alt="" coords="1907,168,2070,193"/>
+<area shape="rect" id="node9" href="$namespacecdf__scaldimer.html#a1a5bfcee7b085f5ac09ce6ae43c99ed2" title="cdf_scaldimer.ascend\l_tensors" alt="" coords="1914,105,2064,144"/>
+<area shape="rect" id="node16" href="$namespaceed__scaldimer.html#a64f107441b620a7062aa2cb8653ab5b8" title="ed_scaldimer.get_T" alt="" coords="1920,217,2058,242"/>
+<area shape="rect" id="node19" href="$namespace_k_w__scaldims.html#af2b6be468ad4e7201b1ba6e78fb8fb44" title="KW_scaldims.ascend\l_tensors" alt="" coords="1914,42,2063,81"/>
+<area shape="rect" id="node26" href="$namespacetensordispenser.html#ac5048b3d1ac9a95510e86152fdefabcf" title="tensordispenser.generate\l_normalized_tensor" alt="" coords="1903,266,2075,305"/>
+<area shape="rect" id="node7" href="$namespacecdf__ed__scaldimer.html#ac6adfe006a377ed1dccee625774f96e6" title="cdf_ed_scaldimer.get_eigs" alt="" coords="2123,168,2302,193"/>
+<area shape="rect" id="node8" href="$namespacecdf__ed__scaldimer.html#ae07d674b3241cb80450b67d14a691fad" title="cdf_ed_scaldimer.load_eigs" alt="" coords="2350,168,2536,193"/>
+<area shape="rect" id="node10" href="$namespacecdf__scaldimer.html#abed4cb95068f5bbd96230d12f2e7d535" title="cdf_scaldimer.generate\l_tensors" alt="" coords="2133,105,2292,144"/>
+<area shape="rect" id="node11" href="$namespacecdf__scaldimer.html#a6ce4cc789b580d4bc552fc3bda6bdf48" title="cdf_scaldimer.get_tensors" alt="" coords="2355,112,2531,137"/>
+<area shape="rect" id="node12" href="$namespacecdf__scaldimer.html#af4ba8dbee3e9858f5ce217bb6a773875" title="cdf_scaldimer.generate\l_normalized_tensors" alt="" coords="2584,105,2743,144"/>
+<area shape="rect" id="node13" href="$namespacecdf__scaldimer.html#a93715d9563e93edda4f132a454b478d9" title="cdf_scaldimer.get_normalized\l_tensors" alt="" coords="2791,105,2989,144"/>
+<area shape="rect" id="node14" href="$namespacecdf__scaldimer.html#adc6cace1f673b54fa5d18071c495ea94" title="cdf_scaldimer.get_eigs" alt="" coords="3050,112,3207,137"/>
+<area shape="rect" id="node15" href="$namespacecdf__scaldimer.html#a9fb8c275e56bc79bbcdc9eb42ea08803" title="cdf_scaldimer.main" alt="" coords="3268,112,3404,137"/>
+<area shape="rect" id="node17" href="$namespaceed__scaldimer.html#a9f9da2934fb9a914ead1d4c5f9923d6b" title="ed_scaldimer.get_cft_data" alt="" coords="2124,217,2301,242"/>
+<area shape="rect" id="node18" href="$namespaceed__scaldimer.html#a39b48d72b2916e01e81dce74233d8483" title="ed_scaldimer.load_cft_data" alt="" coords="2351,217,2535,242"/>
+<area shape="rect" id="node20" href="$namespace_k_w__scaldims.html#a1064e4773cb769d2ab426f36fa6e6e94" title="KW_scaldims.generate\l_tensors" alt="" coords="2133,42,2292,81"/>
+<area shape="rect" id="node21" href="$namespace_k_w__scaldims.html#abeeaa0ce426d9df36121e2323a31d66f" title="KW_scaldims.get_tensors" alt="" coords="2355,49,2531,74"/>
+<area shape="rect" id="node22" href="$namespace_k_w__scaldims.html#ab36193c6b394370fd0804c75eabaaa19" title="KW_scaldims.generate\l_normalized_tensors" alt="" coords="2584,42,2743,81"/>
+<area shape="rect" id="node23" href="$namespace_k_w__scaldims.html#a9a6002c6efd62e85f13c45e913e32e51" title="KW_scaldims.get_normalized\l_tensors" alt="" coords="2791,42,2988,81"/>
+<area shape="rect" id="node24" href="$namespace_k_w__scaldims.html#afabc323b07398e9eebfb289dc59f8bbf" title="KW_scaldims.get_scaldims" alt="" coords="3037,49,3220,74"/>
+<area shape="rect" id="node25" href="$namespace_k_w__scaldims.html#a8865c12a5928ca043df41ce87605a9f4" title="KW_scaldims.main" alt="" coords="3269,49,3403,74"/>
+<area shape="rect" id="node31" href="$namespace_t_n_r.html#ad63a072037c46d7de6045b0afc143e6c" title="TNR.print_Z_error" alt="" coords="951,73,1081,98"/>
+<area shape="rect" id="node34" href="$namespace_t_n_r.html#a861c06671bb97f13dce965f01d99ec3f" title="TNR.optimize_isometries" alt="" coords="380,22,551,48"/>
+</map>

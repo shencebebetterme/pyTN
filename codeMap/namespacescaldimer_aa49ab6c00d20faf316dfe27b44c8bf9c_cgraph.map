@@ -1,0 +1,12 @@
+<map id="scaldimer.get_T" name="scaldimer.get_T">
+<area shape="rect" id="node2" href="$namespacesave2string.html#a623f7ef152062719ae0cc1e7c94ea1d1" title="save2string.begin_of" alt="" coords="797,288,941,313"/>
+<area shape="rect" id="node3" href="$namespacetensordispenser.html#abcfde8343cd9bab18941b4c357cdc245" title="tensordispenser.get\l_normalized_tensor" alt="" coords="169,154,307,193"/>
+<area shape="rect" id="node7" href="$namespacesave2string.html#acea11a47ee9b34d8723a22612fe80ede" title="save2string.end_of" alt="" coords="802,98,936,124"/>
+<area shape="rect" id="node4" href="$namespacetensordispenser.html#a4d03b0d59232c0aa86a51c798f5cabc2" title="tensordispenser.get\l_general" alt="" coords="355,154,493,193"/>
+<area shape="rect" id="node5" href="$namespacetensordispenser.html#aa20f6037ab2e03db87491463a0471921" title="tensordispenser.get_pars" alt="" coords="559,60,731,85"/>
+<area shape="rect" id="node6" href="$namespacetensordispenser.html#af077473221bc34cfadcf7e730b518b90" title="tensordispenser.get\l_id_pars_and_set_default_pars" alt="" coords="541,210,749,249"/>
+<area shape="rect" id="node8" href="$namespacetensorstorer.html#a06ed7c0cf5fabe69050cf5b8bca5355b" title="tensorstorer.read_tensor_file" alt="" coords="549,161,741,186"/>
+<area shape="rect" id="node9" href="$namespacetensorstorer.html#a0c2f0ec686a5b27ad608904d430a4c3f" title="tensorstorer.update\l_pars_and_pather" alt="" coords="1161,200,1297,238"/>
+<area shape="rect" id="node10" href="$namespacetensorstorer.html#a9edc3dfc19ac04b0706fe5b8775670ec" title="tensorstorer.write\l_tensor_file" alt="" coords="807,200,931,238"/>
+<area shape="rect" id="node11" href="$namespacetensorstorer.html#a532bbb41dc290f737622ee2cf4670735" title="tensorstorer.write\l_pars_file" alt="" coords="989,200,1113,238"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="TNR.print_Z_error" name="TNR.print_Z_error">
+<area shape="rect" id="node2" href="$namespace_t_n_r.html#aa4a6765515ea7a165334db5f87882fce" title="TNR.A4_trace" alt="" coords="202,286,308,312"/>
+<area shape="rect" id="node3" href="$namespace_t_n_r.html#a3bd5fa61e55d03a0c438c030f5824679" title="TNR.tnr_step_vertstr" alt="" coords="183,336,328,361"/>
+<area shape="rect" id="node4" href="$namespacesave2string.html#a623f7ef152062719ae0cc1e7c94ea1d1" title="save2string.begin_of" alt="" coords="777,184,922,209"/>
+<area shape="rect" id="node5" href="$namespace_t_n_r.html#a5073edc00dbb77d28d4b2de51b8e7c11" title="TNR.format_parameters\l_vertstr" alt="" coords="543,70,708,109"/>
+<area shape="rect" id="node6" href="$namespacesave2string.html#acea11a47ee9b34d8723a22612fe80ede" title="save2string.end_of" alt="" coords="782,286,916,312"/>
+<area shape="rect" id="node7" href="$namespace_t_n_r.html#a052fdd8d958e8ed4eb94358c4e56e6d4" title="TNR.split_A_list" alt="" coords="376,260,492,285"/>
+<area shape="rect" id="node9" href="$namespace_t_n_r.html#a8cd3f8322b992919333d3218d5fb7148" title="TNR.build_uvw" alt="" coords="378,486,490,512"/>
+<area shape="rect" id="node20" href="$namespace_t_n_r.html#aa2cabfaf629eb7f4be2392ea7e50178d" title="TNR.build_B" alt="" coords="998,640,1095,665"/>
+<area shape="rect" id="node21" href="$namespace_t_n_r.html#ad9c34dfc7c51670e8849bf784b122c1d" title="TNR.split_B" alt="" coords="579,133,671,158"/>
+<area shape="rect" id="node22" href="$namespace_t_n_r.html#a1adb98213aa01fb1dab6a3a0ed75dc7c" title="TNR.build_z" alt="" coords="578,790,673,816"/>
+<area shape="rect" id="node27" href="$namespace_t_n_r.html#a58541e49ef13594faaf4dd0cd8fb1f53" title="TNR.build_A_new" alt="" coords="561,840,690,865"/>
+<area shape="rect" id="node8" href="$namespace_t_n_r.html#af4ec0eb1778b43efa06481eac27246f8" title="TNR.split_A" alt="" coords="579,234,671,260"/>
+<area shape="rect" id="node10" href="$namespace_t_n_r.html#a0f702edfdd7ddea96bff3fea9691e11c" title="TNR.A4_frob_norm_sq" alt="" coords="546,638,704,664"/>
+<area shape="rect" id="node11" href="$namespace_t_n_r.html#a9cd683ec7f9bb8bf77ce306a8b2707d8" title="TNR.compute_TNR_error" alt="" coords="762,638,936,664"/>
+<area shape="rect" id="node14" href="$namespace_t_n_r.html#a36fbc02b1974c889a4ed6b6ad2501cff" title="TNR.initial_uvw" alt="" coords="568,437,682,462"/>
+<area shape="rect" id="node18" href="$namespace_t_n_r.html#a861c06671bb97f13dce965f01d99ec3f" title="TNR.optimize_isometries" alt="" coords="540,486,710,512"/>
+<area shape="rect" id="node19" href="$namespace_t_n_r.html#a11880943754ca5fc30aa83587549fc55" title="TNR.optimize_disentangler" alt="" coords="758,537,940,562"/>
+<area shape="rect" id="node12" href="$namespace_t_n_r.html#aee8b092182e33a6d2ed511887ec8c195" title="TNR.upper_block" alt="" coords="1153,488,1278,513"/>
+<area shape="rect" id="node13" href="$namespace_t_n_r.html#ab9850ae3714b34473b5e2f71a5d5c1ef" title="TNR.upb_dg" alt="" coords="1167,614,1264,640"/>
+<area shape="rect" id="node15" href="$namespacendarray__svd.html#a0b0cfe3c73168aa3605b3c3e37da18d7" title="ndarray_svd.svd" alt="" coords="790,336,909,361"/>
+<area shape="rect" id="node17" href="$namespace_t_n_r.html#af12cef812cdb80e15ad428066b9da61c" title="TNR.w_hat" alt="" coords="805,385,893,410"/>
+<area shape="rect" id="node16" href="$namespacendarray__svd.html#ae170026e2e1adac550594aabac1ba2d7" title="ndarray_svd.eig" alt="" coords="988,336,1105,361"/>
+<area shape="rect" id="node23" href="$namespace_t_n_r.html#a7e29ff7c13047e4169b36d2a11adb7ce" title="TNR.v_dg" alt="" coords="809,889,890,914"/>
+<area shape="rect" id="node24" href="$namespace_t_n_r.html#a072ec120def5f55a5927922cab30afd9" title="TNR.w_dg" alt="" coords="807,741,892,766"/>
+<area shape="rect" id="node25" href="$namespace_t_n_r.html#a056fd49c1ff472f4357a8073aec4ae11" title="TNR.v_prime" alt="" coords="799,790,899,816"/>
+<area shape="rect" id="node26" href="$namespace_t_n_r.html#a0711b23af895bff6d4bddcf3aa9ec492" title="TNR.w_prime" alt="" coords="798,840,901,865"/>
+<area shape="rect" id="node28" href="$namespace_t_n_r.html#ad6e702759ff598bde1ae7dab74125b58" title="TNR.z_dg" alt="" coords="809,938,890,964"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="KW_scaldims.generate_initial_tensors" name="KW_scaldims.generate_initial_tensors">
+<area shape="rect" id="node2" href="$namespaceinitialtensors.html#ade760b07f38ae026c48e62b2b3264d49" title="initialtensors.get\l_initial_tensor" alt="" coords="212,43,329,81"/>
+<area shape="rect" id="node5" href="$namespaceinitialtensors.html#ab5648fd7a34bdbd013c15b45e06152a7" title="initialtensors.get\l_KW_tensor" alt="" coords="212,105,329,144"/>
+<area shape="rect" id="node7" href="$namespaceinitialtensors.html#a773be27ec83e347d55c46915668a7890" title="initialtensors.get\l_KW_unitary" alt="" coords="212,168,329,207"/>
+<area shape="rect" id="node3" href="$namespacesave2string.html#a623f7ef152062719ae0cc1e7c94ea1d1" title="save2string.begin_of" alt="" coords="389,5,533,31"/>
+<area shape="rect" id="node4" href="$namespacesave2string.html#acea11a47ee9b34d8723a22612fe80ede" title="save2string.end_of" alt="" coords="394,55,528,80"/>
+<area shape="rect" id="node6" href="$namespaceinitialtensors.html#a7e4f7369aa863ca5d49cbd6f70202ace" title="initialtensors.sigma_np" alt="" coords="592,163,749,188"/>
+<area shape="rect" id="node8" href="$namespaceinitialtensors.html#a7e15d1aebd1424a7a29cbcc44c5cc3c6" title="initialtensors.Csigma_np" alt="" coords="377,163,544,188"/>
+<area shape="rect" id="node9" href="$namespaceinitialtensors.html#adb936c8ea5d62481cba2d8217a01e974" title="initialtensors.R_np" alt="" coords="395,212,526,237"/>
+</map>

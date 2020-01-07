@@ -1,0 +1,6 @@
+<map id="timer.Timer.seconds_to_str" name="timer.Timer.seconds_to_str">
+<area shape="rect" id="node2" href="$classtimer_1_1_timer.html#aaf24384ef0585c3c8fc81c803ac00580" title="timer.Timer.end" alt="" coords="222,5,335,31"/>
+<area shape="rect" id="node4" href="$classtimer_1_1_timer.html#a3cd47d3046492125ffd2e3dd81bf676b" title="timer.Timer.print_elapsed" alt="" coords="193,55,364,80"/>
+<area shape="rect" id="node5" href="$classtimer_1_1_timer.html#a18c1ed2cc7981e4b2a866baa2535ebaf" title="timer.Timer.print_time" alt="" coords="204,104,353,129"/>
+<area shape="rect" id="node3" href="$classtimer_1_1_timer.html#a01acfa2a5d64cabbe6066df08a8653a6" title="timer.Timer.stop" alt="" coords="412,5,528,31"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="tensor.Tensor.find_trunc_dim" name="tensor.Tensor.find_trunc_dim">
+<area shape="rect" id="node2" href="$classtensor_1_1_tensor.html#a924ede0ed9e2c28c96112c902ee2c3af" title="tensor.Tensor.check\l_form_match" alt="" coords="194,5,333,44"/>
+<area shape="rect" id="node4" href="$classtensor_1_1_tensor.html#a0588c57ed2ab80386d6a3b987023c344" title="tensor.Tensor.matrix_eig" alt="" coords="1254,149,1420,175"/>
+<area shape="rect" id="node11" href="$classtensor_1_1_tensor.html#af8b0b1715f8ae747eb740d917e9fffd6" title="tensor.Tensor.matrix_svd" alt="" coords="179,145,348,171"/>
+<area shape="rect" id="node3" href="$classtensor_1_1_tensor.html#a09dc43fe5cdb89250c91595728a0339a" title="tensor.Tensor.value" alt="" coords="444,12,580,37"/>
+<area shape="rect" id="node5" href="$classtensor_1_1_tensor.html#a433ac33c4c10aab7596cc9b4f653d1b3" title="tensor.Tensor.matrix_dot" alt="" coords="1499,149,1665,175"/>
+<area shape="rect" id="node10" href="$classtensorcommon_1_1_tensor_common.html#a6037f0826b8144c5b4b3250ca6553623" title="tensorcommon.TensorCommon.eig" alt="" coords="1468,199,1697,224"/>
+<area shape="rect" id="node6" href="$classtensorcommon_1_1_tensor_common.html#a0028e140ef2d29c40e296f1622fd97a9" title="tensorcommon.TensorCommon.dot" alt="" coords="1745,175,1974,200"/>
+<area shape="rect" id="node7" href="$classabeliantensor_1_1_abelian_tensor.html#aac909b74e8511bad61c305e333d26740" title="abeliantensor.AbelianTensor.multiply_diag" alt="" coords="2022,149,2292,175"/>
+<area shape="rect" id="node8" href="$classtensorcommon_1_1_tensor_common.html#a262a6e680cfbaacc45aab52c09f8f4c3" title="tensorcommon.TensorCommon.norm_sq" alt="" coords="2026,199,2288,224"/>
+<area shape="rect" id="node9" href="$classtensorcommon_1_1_tensor_common.html#a79bec5c87ab1946027fafa39349919cc" title="tensorcommon.TensorCommon.norm" alt="" coords="2340,199,2581,224"/>
+<area shape="rect" id="node12" href="$classtensorcommon_1_1_tensor_common.html#a71bbbae378459ac8c9b6e2c9de95379d" title="tensorcommon.TensorCommon.svd" alt="" coords="396,221,628,247"/>
+<area shape="rect" id="node13" href="$classtensorcommon_1_1_tensor_common.html#a58877ed968100895e33318710b9c429d" title="tensorcommon.TensorCommon.split" alt="" coords="676,221,911,247"/>
+<area shape="rect" id="node14" href="$classtensorcommon_1_1_tensor_common.html#aee7b8845718104d5b17fcaea3261e61e" title="tensorcommon.TensorCommon.matrix\l_decomp_format_chis" alt="" coords="959,171,1206,209"/>
+</map>

@@ -1,6 +1,6 @@
 # TNR code for arXiv:1512.03846
 
-The Python3 source code provided here can be used reproduce the results
+The Python3 source code provided here can be used to reproduce the results
 published in [arXiv:1512.03846](https://arxiv.org/abs/1512.03846), the article that this code accompanies. The
 exact commands that one needs to run to produce the plots shown in the article
 are listed below.
@@ -42,7 +42,7 @@ powerful multicore machine.
 
 ##### Ising without defects:
 ```
-python scaldimer.py -model 'ising' -algorithm 'TNR' -initial4x4 True -symmetry_tensors True -horz_refl True -fix_gauges True -reuse_initial True -return_pieces True -return_gauges True -do_momenta True -do_coarse_momenta True -plot_by_qnum False -chis_tnr 14 -chis_trg 28 -iter_count 5 -block_width 4 -n_dims_do 30 -n_dims_plot 30 -max_dim_plot 4.5 -plot_by_momenta True
+python3 scaldimer.py -model 'ising' -algorithm 'TNR' -initial4x4 True -symmetry_tensors True -horz_refl True -fix_gauges True -reuse_initial True -return_pieces True -return_gauges True -do_momenta True -do_coarse_momenta True -plot_by_qnum False -chis_tnr 14 -chis_trg 28 -iter_count 5 -block_width 4 -n_dims_do 30 -n_dims_plot 30 -max_dim_plot 4.5 -plot_by_momenta True
 ```
 
 <!--

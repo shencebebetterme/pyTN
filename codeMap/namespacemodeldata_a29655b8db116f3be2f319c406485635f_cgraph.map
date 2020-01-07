@@ -1,0 +1,6 @@
+<map id="modeldata.get_free_energy" name="modeldata.get_free_energy">
+<area shape="rect" id="node2" href="$namespacemodeldata.html#aa558446541663935da54180c8ad006ec" title="modeldata.update_pars" alt="" coords="644,24,805,50"/>
+<area shape="rect" id="node3" href="$namespacemodeldata.html#acc7ac918f35096cd116e5d3108779b20" title="Free energy functions #####################. " alt="" coords="194,26,359,51"/>
+<area shape="rect" id="node4" href="$namespacemodeldata.html#ac4405fc9e29b43113bb63e3fe7da7183" title="modeldata.potts3_exact_f" alt="" coords="190,75,364,100"/>
+<area shape="rect" id="node5" href="$namespacemodeldata.html#a21dc7cccb551dd3307efdf79a5f0f43c" title="modeldata.get_critical_beta" alt="" coords="412,50,596,75"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="tensor.Tensor.matrix_svd" name="tensor.Tensor.matrix_svd">
+<area shape="rect" id="node2" href="$classtensorcommon_1_1_tensor_common.html#aee7b8845718104d5b17fcaea3261e61e" title="tensorcommon.TensorCommon.matrix\l_decomp_format_chis" alt="" coords="222,81,469,120"/>
+<area shape="rect" id="node20" href="$classtensor_1_1_tensor.html#ae9f02dbfd89f444f1e56659e3f65e1fe" title="tensor.Tensor.find\l_trunc_dim" alt="" coords="895,5,1021,44"/>
+<area shape="rect" id="node3" href="$classtensorcommon_1_1_tensor_common.html#aa87752b825d3638383bede7bc16d78ca" title="tensorcommon.TensorCommon.flatten_dim" alt="" coords="517,63,794,88"/>
+<area shape="rect" id="node4" href="$classtensorcommon_1_1_tensor_common.html#a58877ed968100895e33318710b9c429d" title="tensorcommon.TensorCommon.split" alt="" coords="538,112,773,137"/>
+<area shape="rect" id="node5" href="$classtensorcommon_1_1_tensor_common.html#a71bbbae378459ac8c9b6e2c9de95379d" title="tensorcommon.TensorCommon.svd" alt="" coords="842,119,1074,144"/>
+<area shape="rect" id="node6" href="$classtensorcommon_1_1_tensor_common.html#a7a40b8d18f50b5616dc5bd63a0400eba" title="tensorcommon.TensorCommon.to\l_matrix" alt="" coords="1139,63,1361,101"/>
+<area shape="rect" id="node19" href="$classabeliantensor_1_1_abelian_tensor.html#a34305c1172653c906fa63bd969d8d2c5" title="abeliantensor.AbelianTensor.matrix_svd" alt="" coords="1122,125,1378,151"/>
+<area shape="rect" id="node7" href="$classabeliantensor_1_1_abelian_tensor.html#a63758f25764fe1b16779c1c209d041f3" title="abeliantensor.AbelianTensor.join\l_indices" alt="" coords="1713,63,1926,101"/>
+<area shape="rect" id="node12" href="$classtensor_1_1_tensor.html#a05e26a12950317454800d98ed384e2bc" title="tensor.Tensor.join\l_indices" alt="" coords="1482,5,1607,44"/>
+<area shape="rect" id="node13" href="$classtensorcommon_1_1_tensor_common.html#a5743574f891664017aa2493fc94d81af" title="tensorcommon.TensorCommon.from\l_matrix" alt="" coords="1426,156,1664,195"/>
+<area shape="rect" id="node8" href="$classabeliantensor_1_1_abelian_tensor.html#a4c7f68ae796d686d6a28e3cc404fbca7" title="abeliantensor.AbelianTensor.view" alt="" coords="1991,177,2210,203"/>
+<area shape="rect" id="node10" href="$classabeliantensor_1_1_abelian_tensor.html#aeb3c7d9d16662361b40ced5bf7ffd148" title="abeliantensor.AbelianTensor.sum" alt="" coords="1992,76,2209,101"/>
+<area shape="rect" id="node11" href="$classabeliantensor_1_1_abelian_tensor.html#aaf07f61339ab55a47935a8252142d4b2" title="abeliantensor.AbelianTensor.transpose" alt="" coords="1975,27,2225,52"/>
+<area shape="rect" id="node9" href="$classabeliantensor_1_1_abelian_tensor.html#a2a9ddddb3af3e22bbf47dfce6e9150d8" title="abeliantensor.AbelianTensor.empty_like" alt="" coords="2273,127,2529,152"/>
+<area shape="rect" id="node14" href="$classabeliantensor_1_1_abelian_tensor.html#a408462b6f36c5d53803c3d26de2cdf61" title="abeliantensor.AbelianTensor.split\l_indices" alt="" coords="1712,125,1927,164"/>
+<area shape="rect" id="node15" href="$classsymmetrytensors_1_1_tensor_z_q.html#a66f9ff5c9340f61a7e647192f5630ce2" title="symmetrytensors.TensorZQ.split\l_indices" alt="" coords="1713,251,1926,289"/>
+<area shape="rect" id="node18" href="$classtensor_1_1_tensor.html#af1c875af852a8534756a6f4aa29edb88" title="tensor.Tensor.split\l_indices" alt="" coords="1755,188,1883,227"/>
+<area shape="rect" id="node16" href="$classsymmetrytensors_1_1_tensor_z_q.html#a92e34c2b1c33548910629aae96631f9a" title="symmetrytensors.TensorZQ.shape\l_to_qhape" alt="" coords="1988,251,2213,289"/>
+<area shape="rect" id="node17" href="$classsymmetrytensors_1_1_tensor_z_q.html#a64cf50dc7d7a3acea68fb53d6e226351" title="symmetrytensors.TensorZQ.dim\l_to_qim" alt="" coords="2296,251,2506,289"/>
+</map>
