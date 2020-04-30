@@ -47,7 +47,7 @@ def get_id_pars(pars):
         if k in pars:
             id_pars[k] = pars[k]
         else:
-            raise RuntimeError("The required parameter %s was not given."%k)
+            raise RuntimeError("The required parameter %s was not given." % k)
     return id_pars
 
 
@@ -58,7 +58,7 @@ def parse():
                       ("algorithm", "str", ""),
                       # Parameters for TNR
                       ("chis_tnr", "int_list", [4]),
-                      ("chis_trg", "int_list", [1,2,3,4,5,6]),
+                      ("chis_trg", "int_list", [1, 2, 3, 4, 5, 6]),
                       ("opt_eps_conv", "float", 1e-11),
                       ("opt_eps_chi", "float", 1e-8),
                       ("opt_iters_tens", "int", 1),
@@ -81,7 +81,7 @@ def parse():
                       ("initial4x4", "bool", False),
                       # Spectrum parameters.
                       ("n_dims_do", "int", 15),
-                      ("qnums_do", "int_list", []),  #[] denotes all
+                      ("qnums_do", "int_list", []),  # [] denotes all
                       ("n_discard", "int", 0),
                       ("block_width", "int", 0),
                       ("do_coarse_momenta", "bool", False),
@@ -96,7 +96,7 @@ def parse():
                       # IO parameters.
                       ("n_dims_plot", "int", 15),
                       ("max_dim_plot", "float", 20000),
-                      ("qnums_plot", "int_list", []),  #[] denotes all
+                      ("qnums_plot", "int_list", []),  # [] denotes all
                       ("xtick_rotation", "int_list", 0),
                       ("show_plots", "bool", True),
                       ("save_plots", "bool", False),
@@ -140,9 +140,9 @@ def get_defect(alpha, T, index):
         qim = None
     defect = type(T).eye(dim, qim=qim, dtype=T.dtype)
     if alpha != 0:
-        for k,v in defect.sects.items():
-            phase = np.exp(1j*alpha*k[0])
-            defect[k] = v*phase
+        for k, v in defect.sects.items():
+            phase = np.exp(1j * alpha * k[0])
+            defect[k] = v * phase
     return defect
 
 
@@ -156,17 +156,17 @@ def get_T(pars):
         if pars["print_errors"]:
             print("Building the coarse-grained transfer matrix times "
                   "translation.")
-        T_dg = T.conjugate().transpose((0,3,2,1)) 
+        T_dg = T.conjugate().transpose((0, 3, 2, 1))
         y_env = scon((T, T, T_dg, T_dg),
-                     ([1,-1,5,2], [5,-2,3,4], [1,2,6,-3], [6,4,3,-4]))
-        U = y_env.eig((0,1), (2,3), hermitian=True, chis=chis)[1]
-        y = U.conjugate().transpose((2,0,1))
-        y_dg = y.conjugate().transpose((1,2,0))
-        SW, NE = T.split((0,3), (1,2), chis=chis)
-        SW = SW.transpose((0,2,1))
-        NE = NE.transpose((1,2,0))
+                     ([1, -1, 5, 2], [5, -2, 3, 4], [1, 2, 6, -3], [6, 4, 3, -4]))
+        U = y_env.eig((0, 1), (2, 3), hermitian=True, chis=chis)[1]
+        y = U.conjugate().transpose((2, 0, 1))
+        y_dg = y.conjugate().transpose((1, 2, 0))
+        SW, NE = T.split((0, 3), (1, 2), chis=chis)
+        SW = SW.transpose((0, 2, 1))
+        NE = NE.transpose((1, 2, 0))
         T = scon((NE, y, T, SW, y_dg),
-                 ([1,3,-1], [-2,1,4], [3,4,6,5], [6,-3,2], [5,2,-4]))
+                 ([1, 3, -1], [-2, 1, 4], [3, 4, 6, 5], [6, -3, 2], [5, 2, -4]))
         parts = (y, y_dg, NE, SW, T_orig)
         # TODO quantify the error in this coarse-graining and print it.
     return T, parts
@@ -191,46 +191,46 @@ def get_T_last(T, pars, alpha=0, parts=None):
             # This is O(chi^6). Could use a pre-environment too.
             env_part1 = scon((NE, defect_horz, T_orig, SW, defect_vert,
                               y_last_dg),
-                             ([-2,1,-1], [1,6], [6,-3,5,2], [5,-4,3], [2,4],
-                              [4,3,-5]))
+                             ([-2, 1, -1], [1, 6], [6, -3, 5, 2], [5, -4, 3], [2, 4],
+                              [4, 3, -5]))
             env = scon((env_part1, env_part1.conjugate()),
-                       ([1,-1,-2,2,3], [1,-3,-4,2,3]))
-            U = env.eig((0,1), (2,3), hermitian=True, chis=chis)[1]
+                       ([1, -1, -2, 2, 3], [1, -3, -4, 2, 3]))
+            U = env.eig((0, 1), (2, 3), hermitian=True, chis=chis)[1]
             y_last_dg = U
-            y_last = y_last_dg.conjugate().transpose((2,0,1))
+            y_last = y_last_dg.conjugate().transpose((2, 0, 1))
             old_cost = cost
             cost = scon((env, y_last, y_last_dg),
-                        ([1,2,3,4], [5,1,2], [3,4,5])).value()
+                        ([1, 2, 3, 4], [5, 1, 2], [3, 4, 5])).value()
             if np.imag(cost) > 1e-13:
                 warnings.warn("optimize y_last cost is complex: " + str(cost))
             else:
                 cost = np.real(cost)
-            cost_change = np.abs((old_cost - cost)/cost)
+            cost_change = np.abs((old_cost - cost) / cost)
             counter += 1
         T_last = scon((y_last,
                        NE, defect_horz, T_orig, SW, defect_vert,
                        y_last_dg),
-                      ([-2,7,8],
-                       [7,1,-1], [1,6], [6,8,5,2], [5,-3,3], [2,4],
-                       [4,3,-4]))
+                      ([-2, 7, 8],
+                       [7, 1, -1], [1, 6], [6, 8, 5, 2], [5, -3, 3], [2, 4],
+                       [4, 3, -4]))
         if pars["print_errors"] > 1:
             orig_T_last = scon((NE, defect_horz,
                                 T_orig, SW, defect_vert),
-                               ([-2,1,-1], [1,6],
-                                [6,-3,5,2], [5,-4,-6], [2,-5]))
+                               ([-2, 1, -1], [1, 6],
+                                [6, -3, 5, 2], [5, -4, -6], [2, -5]))
             coarsed_T_last = scon((y_last_dg, T_last, y_last),
-                                  ([-2,-3,1], [-1,1,-4,2], [2,-5,-6]))
+                                  ([-2, -3, 1], [-1, 1, -4, 2], [2, -5, -6]))
             err = (orig_T_last - coarsed_T_last).norm() / orig_T_last.norm()
             print("After %i iterations, error in optimize y_last is %.3e."
-                  %(counter, err))
+                  % (counter, err))
     elif pars["do_momenta"]:
         defect_horz = get_defect(alpha, T, 0)
         defect_vert = get_defect(alpha, T, 1).conjugate().transpose()
         T_last = scon((T, defect_horz, defect_vert),
-                      ([1,-2,-3,4], [-1,1], [4,-4]))
+                      ([1, -2, -3, 4], [-1, 1], [4, -4]))
     else:
         defect_horz = get_defect(alpha, T, 0)
-        T_last = scon((T, defect_horz), ([1,-2,-3,-4], [-1,1]))
+        T_last = scon((T, defect_horz), ([1, -2, -3, -4], [-1, 1]))
     return T_last
 
 
@@ -256,10 +256,10 @@ def get_cft_data(pars):
                 translation = list(range(1, block_width)) + [0]
             else:
                 translation = range(block_width)
-            scon_list = [T]*(block_width-1) + [T_last]
-            index_list = [[block_width*2, -101, 2, -1]]
-            for i in range(2, block_width+1):
-                index_list += [[2*i-2, -100-i, 2*i, -(2*i-1)]]
+            scon_list = [T] * (block_width - 1) + [T_last]
+            index_list = [[block_width * 2, -101, 2, -1]]
+            for i in range(2, block_width + 1):
+                index_list += [[2 * i - 2, -100 - i, 2 * i, -(2 * i - 1)]]
 
             hermitian = not pars["do_momenta"]
             res = scon_sparseeig(scon_list, index_list, translation,
@@ -274,30 +274,30 @@ def get_cft_data(pars):
         else:
             # Use full diagonalization.
             if pars["do_dual"]:
-                M = T_last.join_indices((0,1), (2,3), dirs=[1,-1])
+                M = T_last.join_indices((0, 1), (2, 3), dirs=[1, -1])
             else:
-                M = scon(T_last, [1,-1,1,-2])
+                M = scon(T_last, [1, -1, 1, -2])
             print("Diagonalizing.")
-            es, evects = M.eig(0,1)
+            es, evects = M.eig(0, 1)
 
         # Convert es to complex for taking the log.
         es = es.astype(np.complex_, copy=False)
 
         # Log and scale the eigenvalues.
         if pars["block_width"]:
-            log_es = es.log() * pars["block_width"] / (2*np.pi)
+            log_es = es.log() * pars["block_width"] / (2 * np.pi)
             if pars["do_coarse_momenta"]:
                 log_es *= 2
         elif pars["do_dual"]:
             log_es = es.log() / np.pi
         else:
-            log_es = es.log() / (2*np.pi)
+            log_es = es.log() / (2 * np.pi)
 
         # Extract the central charge.
         if alpha == 0:
             c = log_es.real().max() * 12
         try:
-            log_es -= c/12
+            log_es -= c / 12
         except NameError:
             raise ValueError("Need to provide 0 in defect_angles to be able "
                              "to obtain the central charge.")
@@ -329,15 +329,15 @@ def load_cft_data(pars, **kwargs):
     except RuntimeError:
         # TODO Remove the following once all important files have been
         # renamed.
-        #old_id_pars = id_pars.copy()
-        #del(old_id_pars["do_eigenvectors"])
-        #try:
+        # old_id_pars = id_pars.copy()
+        # del(old_id_pars["do_eigenvectors"])
+        # try:
         #    res = read_tensor_file(prefix="scals_by_alpha", pars=old_id_pars,
         #                           filename=filename)
         #    write_tensor_file(data=res, prefix="scals_by_alpha", pars=id_pars,
         #                      filename=filename)
         #    print("Renamed old style scaldim file.")
-        #except RuntimeError:
+        # except RuntimeError:
         print("Constructing scaling dimensions.")
         timer = Timer()
         timer.start()
@@ -367,12 +367,12 @@ def combine_momenta_nd(scaldims_a, scaldims_b, momenta_a, momenta_b, pars):
         if sum_diff[idx] > 0.1:
             warnings.warn("Combining scaling dimensions %.3e and %.3e with "
                           "momenta %.3e and %.3e, even though the sum_diff is "
-                          "%.3e."%(sa, scaldims_b[idx],
-                                   ma, momenta_b[idx],
-                                   sum_diff[idx]))
+                          "%.3e." % (sa, scaldims_b[idx],
+                                     ma, momenta_b[idx],
+                                     sum_diff[idx]))
         momenta.append(momenta_b[idx])
-        del(scaldims_b[idx])
-        del(momenta_b[idx])
+        del (scaldims_b[idx])
+        del (momenta_b[idx])
     momenta = np.array(momenta)
     return scaldims, momenta
 
@@ -394,10 +394,10 @@ def combine_coarse_momenta(res_fine_by_alpha, res_coarse_by_alpha, pars):
                 scaldims_q_b = scaldims_b[q]
                 momenta_q_a = momenta_a[q]
                 momenta_q_b = momenta_b[q]
-                scaldims_q, momenta_q =\
-                        combine_momenta_nd(scaldims_q_a, scaldims_q_b,
-                                           momenta_q_a, momenta_q_b,
-                                           pars)
+                scaldims_q, momenta_q = \
+                    combine_momenta_nd(scaldims_q_a, scaldims_q_b,
+                                       momenta_q_a, momenta_q_b,
+                                       pars)
                 scaldims[q] = scaldims_q
                 momenta[q] = momenta_q
         else:
@@ -409,7 +409,7 @@ def combine_coarse_momenta(res_fine_by_alpha, res_coarse_by_alpha, pars):
     return scaldims_by_alpha, c, momenta_by_alpha
 
 
-#=============================================================================#
+# =============================================================================#
 
 
 if __name__ == "__main__":
@@ -419,10 +419,10 @@ if __name__ == "__main__":
     pather = PathFinder(filename, id_pars)
 
     # - Infoprint -
-    print("\n" + ("="*70) + "\n")
-    print("Running %s with the following parameters:"%filename)
-    for k,v in sorted(pars.items()):
-        print("%s = %s"%(k, v))
+    print("\n" + ("=" * 70) + "\n")
+    print("Running %s with the following parameters:" % filename)
+    for k, v in sorted(pars.items()):
+        print("%s = %s" % (k, v))
 
     if pars["do_coarse_momenta"]:
         temp_pars = pars.copy()
@@ -430,8 +430,8 @@ if __name__ == "__main__":
         res_fine = load_cft_data(temp_pars)
         temp_pars["do_coarse_momenta"] = True
         res_coarse = load_cft_data(temp_pars)
-        scaldims_by_alpha, c, momenta_by_alpha =\
-                combine_coarse_momenta(res_fine, res_coarse, pars)
+        scaldims_by_alpha, c, momenta_by_alpha = \
+            combine_coarse_momenta(res_fine, res_coarse, pars)
     else:
         res = load_cft_data(pars)
         scaldims_by_alpha, c = res[:2]
@@ -443,4 +443,3 @@ if __name__ == "__main__":
     scaldim_plot.plot_and_print_dict(scaldims_by_alpha, c, pars, pather,
                                      momenta_dict=momenta_by_alpha,
                                      id_pars=id_pars)
-
